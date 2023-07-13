@@ -6,7 +6,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском
   test-data: | ключевое слово = "Android"
-    steps:
+  steps:
     - Ввести ключевое слово "Android"
     - Нажать кнопку "Поиск"
   expected-result: |
@@ -19,7 +19,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском и выбором категории
   test-data: | категория = "smartphones"
-    steps:
+  steps:
     - Выбрать категорию "smartphones"
     - Нажать кнопку "Поиск"
   expected-result: |
@@ -111,7 +111,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском
   test-data: | https://hexlet-products-store.vercel.app/
-    steps:
+  steps:
     - Нажать в шапке на "Язык"
     - Выбрать другой язык
   expected-result: |
