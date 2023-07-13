@@ -9,7 +9,7 @@
   status: pass
 - summary: |
     Проверка открытии карточки товара
-  status: pass
+  status: fail
 - summary: |
     Проверка возможности добавлять товары в корзину и просматривать содержимое корзины
   status: pass
@@ -18,7 +18,11 @@
   status: fail
 - summary: |
     Проверка сайта на кроссбраузерность
-  status: pass
+  status: fail
 - summary: |
      Проверка поиска товаров по символам
   status: pass
+- summary: |
+     Проверка на мультиязычность
+     status: fail
+     
