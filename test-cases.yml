@@ -6,7 +6,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском
   test-data: | ключевое слово = "Android"
-  steps:
+  steps: |
     - Ввести ключевое слово "Android"
     - Нажать кнопку "Поиск"
   expected-result: |
@@ -19,7 +19,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском и выбором категории
   test-data: | категория = "smartphones"
-  steps:
+  steps: |
     - Выбрать категорию "smartphones"
     - Нажать кнопку "Поиск"
   expected-result: |
@@ -32,7 +32,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском
   test-data: | фильтр = "Apple"
-  steps:
+  steps: |
     - Нажать на "Apple" в списке фильтра
     - Нажать поиск
   expected-result: |
@@ -45,7 +45,7 @@
   prerequisites: |
     Открыта главная страница магазина с товарами
   test-data: | https://hexlet-products-store.vercel.app/
-  steps:
+  steps: |
     - Выбрать любой товар в каталоге
     - Нажать на выбранный товар
   expected-result: |
@@ -58,7 +58,7 @@
   prerequisites: |
     Открыта главная страница магазина с товарами
   test-data: | https://hexlet-products-store.vercel.app/
-  steps:
+  steps: |
     - Добавить нужные товары в корзину
     - Нажать на корзину на главной странице
   expected-result: |
@@ -71,7 +71,7 @@
   prerequisites: |
     Открыта главная страница магазина с товарами
   test-data: | https://hexlet-products-store.vercel.app/
-  steps:
+  steps: |
     - Открыть инструмент разработчика
     - Нажать переключение на мобильную версию
   expected-result: |
@@ -84,7 +84,7 @@
   prerequisites: |
     Открыта главная страница магазина с товарами
   test-data: | Браузеры = Google Chrome, Firefox
-  steps:
+  steps: |
     - Открыть страницу сайта в Google Chrome
     - Открыть страницу сайта в Firefox
     - Сравнить дизайн и функциональность в браузерах
@@ -98,7 +98,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском
   test-data: | #№$*&@
-  steps:
+  steps: |
     - Вводим в поисковую строку символы "#№$*&@"
     - Нажимаем кнопку "Поиск"
   expected-result: |
@@ -111,7 +111,7 @@
   prerequisites: |
     Открыта главная страница магазина с поиском
   test-data: | https://hexlet-products-store.vercel.app/
-  steps:
+  steps: |
     - Нажать в шапке на "Язык"
     - Выбрать другой язык
   expected-result: |
